@@ -11,7 +11,7 @@ export const searchMovie = async (text) => {
             method: "GET",
             headers: {
                 accept: "application/json",
-                Authorization: "Bearer " + import.meta.env.VITE_TMDB_READTOKEN,
+                Authorization: `Bearer ${import.meta.env.VITE_TMDB_READTOKEN}`,
             },
         }
     );
@@ -26,7 +26,7 @@ export const getMovieDetails = async (movie_id) => {
         method: "GET",
         headers: {
             accept: "application/json",
-            Authorization: "Bearer " + import.meta.env.VITE_TMDB_READTOKEN,
+            Authorization: `Bearer ${import.meta.env.VITE_TMDB_READTOKEN}`,
         },
     });
     const data = await response.json();
