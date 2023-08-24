@@ -7,8 +7,6 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import { MovieProvider } from "./context/MovieContext";
 import Details from "./pages/Details";
-// import Search from "./components/Search";
-// import SearchResults from "./components/SearchResults";
 
 function App() {
   return (

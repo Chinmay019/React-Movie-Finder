@@ -1,10 +1,5 @@
 import constants from "../assets/constants";
 
-// // update search query
-// export const updateSearchQuery = (text) => {
-
-// } 
-
 // Search Movies
 export const searchMovie = async (text) => {
     const param = new URLSearchParams({

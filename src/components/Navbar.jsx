@@ -7,19 +7,6 @@ function Navbar() {
   const { dispatch } = useContext(MovieContext);
 
   return (
-    // <div className="header">
-    //   <SiThemoviedatabase size={25} />
-    //   <span>Movie Search</span>
-    //   <div className="nav-link">
-    //     <Link to="/" className="">
-    //       <button className="btn">Home</button>
-    //     </Link>
-    //     <Link to="/about" className="">
-    //       <button className="btn">About</button>
-    //     </Link>
-    //   </div>
-    // </div>
-
     <div className="navbar bg-base-100">
       <div className="flex-1">
         <SiThemoviedatabase

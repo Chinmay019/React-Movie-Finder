@@ -1,10 +1,8 @@
 import React from "react";
-// import { MdOutlineError } from "react-icons/md";
 import errorSVG from "../assets/alert-error.svg";
 function NotFound() {
   return (
     <div>
-      {/* <MdOutlineError size={40} color="red" className="m-3" /> */}
       <div className="flex flex wrap justify-center items-center">
         <svg
           width="200px"

@@ -35,30 +35,6 @@ function Item({ item: { title, poster_path, id } }) {
         </div>
       </div>
     </div>
-    // <div className="card lg:card-side bg-base-100 shadow-xl">
-    //   <div className="flex item-center">
-    //     <div className="avatar bg-contain">
-    //       <div className="rounded-half shadow h-40 w-40 bg-auto">
-    //         <figure>
-    //           <img
-    //             src={`${constants.TMDB_POSTER_URL}/${poster_path}`}
-    //             alt="Poster"
-    //           />
-    //         </figure>
-    //       </div>
-    //     </div>
-    //     <div className="card-body p-3">
-    //       <h2 className="card-title items-center text-center leading-tight">
-    //         {title}
-    //       </h2>
-    //       <div className="card-actions justify-end object-right-bottom">
-    //         <Link to={`movie/${id}`}>
-    //           <button className="btn btn-sm btn-primary">Get More Info</button>
-    //         </Link>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
   );
 }
 

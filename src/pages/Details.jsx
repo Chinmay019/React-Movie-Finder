@@ -32,8 +32,6 @@ function Details({ movieId }) {
     poster_path,
   } = movie;
 
-  // const release_year = ;
-
   if (loading) {
     return <Spinner />;
   }
